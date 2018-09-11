@@ -26,7 +26,7 @@ function createWebMercatorGallery() {
     basemaps.push(basemapImageryOnly );
 	
 	
-	
+	//using isu imager server for naip, instead of NAIP from USDA
 	plss = new esri.dijit.Basemap({
 		layers : [ new esri.dijit.BasemapLayer({
 			 url: 'https://gis.iowadot.gov/public/rest/services/Basemap/Basemap_LabelsOnly/MapServer'
