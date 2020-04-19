@@ -1,4 +1,6 @@
 function createWebMercatorGallery() {
+	//add an alert at the beginning
+	alert("inside creating basemap");
 	basemaps = [];
 	basemapWorldImageryLabels = new esri.dijit.Basemap({
         layers : [new esri.dijit.BasemapLayer({
