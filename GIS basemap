@@ -157,6 +157,7 @@ function createWebMercatorGallery() {
 			})
 		}));
 	});
+	//create a button add to dropbown menu
 	button = new dijit.form.DropDownButton({
 		label : "Basemaps",
 		id : "layerBtn",
